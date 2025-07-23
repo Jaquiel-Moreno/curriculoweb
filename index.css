@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: rgba(135, 180, 222, 0.747)
+}
+.dadospessoais, .profissional, .abjetivo, .formacao, .cursos, .competencia, .informacao{
+     border-bottom-style: inset;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 59%;
+    object-fit: cover;
+    margin: 10px;
+  
+}
+.desc{
+    margin-top: 50px;
+}
+
+h1 {
+    border-bottom-style: inset;
+    color: #333333;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+.foto{
+    display: flex;
+}
+.linker{
+    font-size: 18px;
+ 
+}
+.container {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}

@@ -1,0 +1,49 @@
+body{
+    font-family: 'Arial', sans-serif; 
+    background-color:  #00539f;
+    margin-top: 20px;
+    
+}
+h1{
+    border-bottom-style: inset;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+.container{
+    max-width: 750px;
+    background-color: darkgray;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.sub-container{
+
+    padding: 20px;
+}
+.nome, .nota1, .nota2{
+
+    outline: none;
+    border-radius: 5px;
+}
+.mit, .limcp{
+
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+.mit:hover{
+    background-color: green;
+}
+.limcp:hover{
+    background-color: yellow;
+
+}
+@media (min-width: 600px) {  
+    body, .container {  
+        font-size: 18px;  
+    }  
+    
+}  

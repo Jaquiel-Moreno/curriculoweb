@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Exemplo 4.2</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Programa Cálculo Peso ideal</h1>
+        <div class="photo">
+            <img src="image/incon.jpeg" alt="balança de Peso">
+        </div>
+        <div class="sub-container">
+            <form>
+                <p>Nome:
+                    <input class="name" type="text" id="inNome" required>
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="sexo" id="inMasculino" required> Masculino
+                    <input type="radio" name="sexo" id="inFemino" required> Feminino
+                </p>
+                <p>Altura:
+                    <input class="altura" type="number" min="0" step="0.01" id="inAltura" required>
+                </p>
+                <input class="smit" type="submit" value="Calcular PI">
+                <input class="limcp" type="reset" value="Limpar Cp">
+            </form>
+            <h3></h3>
+            <a href="javascript:history.back()">ReturnAqui</a>
+            <script src="js/ex4_2.js"></script>
+        </div>
+    </div>
+
+</body>
+
+</html>

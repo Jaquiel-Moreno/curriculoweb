@@ -1,0 +1,58 @@
+body{
+    font-family: 'Arial', sans-serif; 
+    background-color:  #00539f;
+    margin-top: 20px;
+     
+
+    
+}
+h1{
+    border-bottom-style: inset;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.container{
+    max-width: 650px;
+    background-color: darkgray;
+    display: block;
+    margin: auto;
+    padding-bottom: 40px;
+    border-radius: 10px;  
+}
+.photo{
+    float: left;
+    height: 150px;
+    width: 300px;
+    padding: 12px;
+
+}
+img{
+    border-radius: 10px;
+    height: 150px;
+}
+.smit, .altura, .name, .limcp{
+
+    outline: none;
+    border-radius: 5px;
+   
+}
+.smit{
+
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+}
+.smit:hover{
+    background-color: green;
+}
+
+.limcp{
+
+    background-color: aqua;
+}
+.limcp:hover{
+
+    background-color: yellow;
+
+}
